@@ -84,9 +84,9 @@ The dialog is available only when installing the Loginom Studio component withou
 msiexec /i "путь_к_msi_файлу" ключи_msi параметры_loginom
 ```
 
-- `ключи_msi` — допустимые значения можно узнать, выполнив в командной строке `msiexec /?`. Особо полезными могут быть:
-    - `/l* "%TEMP%\loginom.msi.log"` — включение журналирования установки.
-    - `/qn` — "тихая" установка без отображения графического интерфейса.
+- `ключи_msi` - valid values can be found by running `msiexec /?` . Particularly useful may be:
+    -  `/l* "%TEMP%\loginom.msi.log"` - enable installation logging. 
+    -  `/qn` - silent installation without displaying a graphical interface. 
 
 % spoiler% Loginom_parameters as `КЛЮЧ=значение` % spoiler%
 
@@ -122,7 +122,6 @@ msiexec /i ".\LoginomEnterprise.msi" /qn WEBSRV_PORT=9080 SERVER_WS_PORT=9081 SE
 
 :: "тихая" установка с включением SSL для websocket
 msiexec /i ".\LoginomEnterprise.msi" /qn SERVER_USE_SSL=1 SERVER_KEY_PATH="%ALLUSERSPROFILE%\ssl.key" SERVER_CRT_PATH="%ALLUSERSPROFILE%\ssl.crt"
-
 ```
 
 % / spoiler%
@@ -172,7 +171,7 @@ netsh advfirewall firewall add rule name="Allow HTTP" dir=in action=allow protoc
 - Allow connections to Loginom Server websocket
 
 ```cmd
-netsh advfirewall firewall add rule name="Allow Loginom WebSocket" dir=in action=allow protocol=TCP localport=8080
+netsh advfirewall firewall add rule name="Allow HTTP" dir=in action=allow protocol=TCP localport=80
 ```
 
 - Allow connections to Loginom Server for Integrator
