@@ -40,8 +40,8 @@
       <tuv lang="RU">
         <seg>ОШИБОЧНАЯ РАЗМЕТКА!</seg>
       </tuv>
-      <tuv lang="EN-US" changeid="user" changedate="20191126T161850Z" creationid="user" creationdate="20191126T161850Z">
-        <seg>!</seg>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T161905Z" creationid="user" creationdate="20191126T161850Z">
+        <seg>Ошибочная разметка!</seg>
       </tuv>
     </tu>
     <tu>
