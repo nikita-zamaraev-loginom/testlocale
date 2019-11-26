@@ -22,6 +22,16 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>```XML
+&lt;ded:Cheques&gt;</seg>
+      </tuv>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T150330Z" creationid="user" creationdate="20191126T150330Z">
+        <seg>  ```   XML
+&lt;ded:Cheques&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>ОШИБОЧНАЯ РАЗМЕТКА!</seg>
       </tuv>
       <tuv lang="EN-US" changeid="user" changedate="20191126T141519Z" creationid="user" creationdate="20191126T141519Z">
