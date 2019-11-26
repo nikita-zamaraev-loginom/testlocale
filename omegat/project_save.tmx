@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>===test</seg>
+      </tuv>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T143655Z" creationid="user" creationdate="20191126T143655Z">
+        <seg>===test 123</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>ОШИБОЧНАЯ РАЗМЕТКА!</seg>
       </tuv>
       <tuv lang="EN-US" changeid="user" changedate="20191126T141519Z" creationid="user" creationdate="20191126T141519Z">
