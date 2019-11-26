@@ -4,6 +4,22 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="RU"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="RU">
+        <seg># Принципы работы и настройки</seg>
+      </tuv>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T135654Z" creationid="user" creationdate="20191126T135654Z">
+        <seg># Line 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>## Функциональная схема работы</seg>
+      </tuv>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T135702Z" creationid="user" creationdate="20191126T135702Z">
+        <seg>## Line2</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>

@@ -20,6 +20,14 @@
         <seg>## Line2</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>ОШИБОЧНАЯ РАЗМЕТКА!</seg>
+      </tuv>
+      <tuv lang="EN-US" changeid="user" changedate="20191126T141519Z" creationid="user" creationdate="20191126T141519Z">
+        <seg>Line 3</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
